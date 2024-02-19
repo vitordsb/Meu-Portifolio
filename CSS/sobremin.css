@@ -1,18 +1,13 @@
-/*ESTILO DO CORPO*/
-
 .flex {
     display: flex;
     gap: 90px; 
 }
-
 section .topo-do-site {
     padding: 100px;
 }
-
 section .topo-do-site .flex {
     align-items: center;
     justify-content: center;
-
 }
 .topo-do-site h1 {
     color: white;   
@@ -29,7 +24,7 @@ section .topo-do-site .flex {
     font-size: 30px;
 }
 .img-topo-site img {
-    border-radius: 100%;
+    border-radius: 30%;
     width: 500px;
     height: 500px;
     position: relative;
@@ -58,7 +53,6 @@ main .btn-contato button {
     cursor: pointer;
     color: white;
 }
-
 @keyframes flutuar {
     0%{
         top: 0;  

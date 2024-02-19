@@ -1,0 +1,35 @@
+.sobre {
+      padding: 40px 4%;
+      margin-top: 60px;
+}
+.img-sobre img {
+      width: 310px;
+      height: 500px;
+      border-radius: 10%;
+}
+.sobre .txt-sobre  {
+      color: white;
+      font-size: 25px;
+}
+.sobre .txt-sobre h2 {
+      font-size: 50px
+}
+.sobre .txt-sobre .p1 {
+      margin-top: 25px;
+}
+.sobre .txt-sobre .p2 {
+      margin-top: 15px;
+}
+.txt-sobre h2 span {
+      color: blue;
+}
+.btn-social button {
+      margin-top: 25px;
+      color: black;
+      font-size: 25px;
+      width: 60px;
+      height: 60px;
+      border-radius: 30px;
+      border: none;
+      background-color: blue;
+}

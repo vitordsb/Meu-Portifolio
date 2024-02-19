@@ -1,0 +1,39 @@
+.projetos {
+      margin-top: 0px;
+      padding: 40px;
+}
+.projetos .flex {
+      justify-content: space-around;
+}
+.img-port {
+      width: 360px;
+      height: 460px;
+      background-color: blue;
+      background-size: cover;
+      background-position: 35% 0% ;
+      transition: 1s;
+      border-radius: 40px;
+}
+.img-port:hover {
+      background-position: 100% 0%;
+}
+.overlay {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      color: white;
+      background-color: rgba(32, 32, 32, 0.664);
+      border-radius: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 34px;
+      font-weight: 1000;
+      opacity: 0;
+      transition: .4s;
+}
+.overlay:hover {
+      opacity: 1;
+}

@@ -1,0 +1,15 @@
+@media screen and (max-width: 1080px){
+      .flex {
+            flex-direction: column;
+      }
+      .menu-desktop, .btn-contato {
+            display: none;
+      }
+      .topo-do-site .img-topo-site img {
+            width: 350px;
+            height: 350px;
+      }
+      .cursos .flex .cursos-box{
+            width: 350px;
+      }
+}
