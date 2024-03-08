@@ -1,10 +1,15 @@
+html {
+      scroll-behavior: smooth;
+}
+
+
 .sobre {
       padding: 40px 4%;
       margin-top: 60px;
 }
 .img-sobre img {
-      width: 310px;
-      height: 500px;
+      width: 280px;
+      height: 440px;
       border-radius: 10%;
 }
 .sobre .txt-sobre  {

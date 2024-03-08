@@ -1,11 +1,18 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 .cursos {
     padding: 50px 4%;
+    margin-top: 90px;
 }
+
 .cursos .cursos-box {
     color: white;
     width: 600px;
     height: 250px;
-    margin-top: 80px;
+    margin-top: 50px;
     border-radius: 20px;
     transition: .2s;
     text-align: center;
@@ -18,11 +25,13 @@
 }
 .cursos-box img {
     width: 110px;
-    height: 110px;
-    border-radius: 20%; 
+    height: 140px;
+    border-radius: 10%; 
     align-items: center;
 }
 .cursos .cursos-box h3 {
     font-size: 25px;
     align-items: center;
 }   
+
+

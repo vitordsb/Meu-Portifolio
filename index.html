@@ -10,10 +10,13 @@
     <!--final das fontes usadas-->
     <!--BOOTSTRAP ICONS-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="./assets/JS/script.js" defer></script>
     <!--BOOTSTRAP ICONS FIM-->
+    <link rel="stylesheet" href="./CSS/formulário.css">
+    <link rel="stylesheet" href="./CSS/responsivo/menu-mobile.css">
     <link rel="stylesheet" href="./CSS/projetos.css">
     <link rel="stylesheet" href="./CSS/inicio.css">
-    <link rel="stylesheet" href="./CSS/responsive.css">
+    <link rel="stylesheet" href="./CSS/responsivo/responsive.css">
     <link rel="stylesheet" href="./CSS/sobremin.css">
     <link rel="stylesheet" href="./CSS/perfil.css">
     <link rel="stylesheet" href="./CSS/meuscursos.css">
@@ -24,19 +27,19 @@
         <div class="interface">
             <div class="logo-instagram">
                 <a href="https://www.linkedin.com/in/vitor-de-souza-barreto-15067a1bb/" target="_blank" title="perfil linkedln">
-                    <img src="./imagens/logo linkedln.png" alt="link para perfil no linkedln" width="90" height="90">
+                    <img src="./img/imagens-conteudo/logo linkedln.png" alt="link para perfil no linkedln" width="90" height="90">
                 </a>
             </div>
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="./Curriculo Vitor de Souza Barreto.pdf" download="Curriculo" title="Download do meu curriculo">Curriculo</a></li>
-                    <li><a href="#">Cursos</a></li>
-                    <li><a href="#">Projetos</a></li>
-                    <li><a href="#">Redes sociais</a></li>
+                    <li><a href="./assets/Curriculo Vitor de Souza Barreto.pdf" download="Curriculo" title="Download do meu curriculo">Curriculo</a></li>
+                    <li><a href="#cursos">Cursos</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#redes-sociais">Redes sociais</a></li>
                 </ul>
             </nav>
             <div class="btn-contato">
-                <a href="#">
+                <a href="#contato">
                     <button>Contato</button>
                 </a>
             </div>
@@ -48,62 +51,85 @@
             <div class="interface">
                 <div class="flex">
                     <div class="txt-topo-site">
-                        <h1>Meu Portifólio <span>Pessoal.</span></h1>
+                        <h1>Meu Portifólio <span id="animar"></span></h1>
                         <p>Olá Mundo! Sou o Vitor, tenho 17 anos e esse é o meu portifólio pessoal e profissional. Sou amante de programação desde sempre e hoje estou em busca de experiências profissionais.</p>
                         <div class="btn-contato">
-                            <a href="#">
-                                <button>Sobre mim</button>
+                            <a href="https://github.com/vitordsb" target="_blank">
+                                <button>Meu Github</button>
                             </a>
                         </div>
                     </div>
                     <div class="img-topo-site">
-                        <img src="./imagens/Foto perfil.jpg" alt="">
+                        <img src="./img/imagens-conteudo/Foto perfil.jpg" alt="">
                     </div><!--img-topo-site-->
                 </div><!--flex-->
             </div><!--interface-->
         </section><!--topo-do-site-->
 
-        <section class="cursos">
+        <section class="cursos" id="cursos">
             <div class="interfaces">
                 <h2 class="titulo">MEUS <span>CURSOS</span></h2>
                 <div class="flex">
 
                     <div class="cursos-box">
-                        <img src="./imagens/icons/iconpython.svg" alt="">
-                        <img src="./imagens/icons/java.svg" alt="">
+                        <img src="./img/icons/svg/iconpython.svg" alt="">
+                        <img src="./img/icons/svg/java.svg" alt="">
                         <h3>Python e Java</h3>
-                        <p>Curso Back-End Python e Java completo (Python aprendendo machine learning e IA). Aplicando java em projeto básico</p>
+                        <p>Aprendendo e aplicando em projetos próprios, como os citados abaixo, POO, aprendendo machine learning</p>
                     </div><!--cursos-box-->
 
                     <div class="cursos-box">
-                        <img src="./imagens/icons/html-5.svg" alt="">
-                        <img src="./imagens/icons/javascript-js.svg" alt="">
-                        <img src="./imagens/icons/css-3.svg" alt="">
+                        <img src="./img/icons/svg/html-5.svg" alt="">
+                        <img src="./img/icons/svg/javascript-js.svg" alt="">
+                        <img src="./img/icons/svg/css-3.svg" alt="">
                         <h3>HTML, CSS e Java Script</h3>
-                        <p>Curso Front-End com HTML, CSS e Java Script completos, aplicados em projetos reais e funcionais (java script voltado mais para back-end, porém com experiências no front)</p>
+                        <p>Aplicando em projetos próprios e projetos de freelancer, criando sites, blogs, marketplaces e portifólios</p>
                     </div><!--cursos-box-->
 
                     <div class="cursos-box">
-                        <img src="./imagens/icons/file-type-php.svg" alt="">
-                        <img src="./imagens/icons/sql-database-generic.svg" alt="">
+                        <img src="./img/icons/svg/file-type-php.svg" alt="">
+                        <img src="./img/icons/svg/sql-database-generic.svg" alt="">
                         <h3>PHP e SQL</h3>
-                        <p>Curso Back-End em PHP e SQL, aprendendo e aplicando em projetos próprios (futuramente)</p>
+                        <p>Curso para entender fundamentos básicos da linguagem, e qual a serventia dele para um programa.</p>
+                    </div><!--cursos-box-->
+                    
+                </div><!--Flex-->
+                <div class="flex">
+                    <div class="cursos-box">
+                        <img src="./img/icons/typescript.png" alt="">
+                        <img src="./img/icons/developertools.png" alt="">
+                        <h3>TypeScript e developer tools</h3>
+                        <p>Aprendendo a identação e semântica do typescript e curso de developer tools para aprender como usar à favor</p>
                     </div><!--cursos-box-->
 
-                </div><!--Flex-->
+                    <div class="cursos-box">
+                        <img src="./img/icons/windows.png" alt="">
+                        <img src="./img/icons/linux.png" alt="">
+                        <h3>Windows e Linux</h3>
+                        <p>Cursos avançados em ambos sistemas operacionais, como gerenciamneto de rede, manipulação de pastas, edição de SO e gerencimento de pacotes </p>
+                    </div><!--cursos-box-->
+
+
+                    <div class="cursos-box">
+                        <img src="./img/icons/svg/github-color-svgrepo-com.svg" alt="">
+                        <img src="./img/icons/svg/git-svgrepo-com.svg" alt="">
+                        <h3>Git e Github</h3>
+                        <p>Curso de gerenciamneto de arquivos, push, init, bash sincronização e atualização de repositórios tanto em time quanto pessoais.</p>
+                    </div><!--cursos-box-->
+                </div><!--Flex2-->
             </div><!--interface-->
         </section><!--cursos-->
 
-        <section class="sobre">
+        <section class="sobre" id="redes-sociais">
             <div class="interface">
                 <div class="flex">
                     <div class="img-sobre">
-                        <img src="./imagens/Vitor real.jpg  " alt="">
+                        <img src="./img/imagens-conteudo/Vitor real.jpg" alt="">
                     </div><!--final img sobre-->
 
                     <div class="txt-sobre">
-                        <h2>PRAZER, SOU O <span>VITOR DE SOUZA BARRETO</span></h2>
-                        <p class="p1">Já trabalhei em outras áreas, mas sempre tive gosto por tecnologia e inovações. E hoje me sinto confiante em buscar minha primeira oportunidade como programador. </p>
+                        <h2>Prazer, sou o <span>Vitor de Souza Barreto</span></h2>
+                        <p class="p1">Já trabalhei em outras áreas, mas sempre tive gosto por tecnologia e inovações. E hoje me sinto confiante em buscar minha primeira oportunidade como programador. </p> 
                         <p class="p2">Desde pequeno quebrei e montei computadores, sempre buscando entender como que aquela maquina processada por 0 e 1 funcionava. Acabei pegando gosto e tendo facilidade em aprender mais. Me siga nas redes sociais para saber mais sobre mim.</p>
                         <div class="btn-social">
                             <a href="https://www.instagram.com/vitudsb/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
@@ -115,29 +141,47 @@
             </div><!--final interface-->
         </section><!--final sobre-->
 
-        <section class="projetos">
+        <section class="projetos"  id="projetos">
             <div class="interface">
                 <h2 class="titulo">MEUS <span>PROJETOS</span></h2>
                 <div class="flex">
-                    <div class="img-port" style="background-image: url(./imagens-projeto/Calculadora\ python.jpg);">
+                    <div class="img-port" style="background-image: url(./img/imagens-projeto/Calculadora\ python.jpg);">
                         <div class="overlay">
-                            Calculadora Python
+                            <a href="https://github.com/vitordsb/CalculadoraPython.git" target="_blank">Calculadora</a>
                         </div>
                     </div><!--final projeto python-->
-                    <div class="img-port" style="background-image: url(./imagens-projeto/Projeto-RH.jpg);">
+                    <div class="img-port" style="background-image: url(./img/imagens-projeto/Projeto-RH.jpg);">
                         <div class="overlay">
                             Programa RH
                         </div>
                     </div>
-                    <div class="img-port" style="background-image: url(./imagens-projeto/jogo-da-velha.png);">
+                    <div class="img-port" style="background-image: url(./img/imagens-projeto/Projeto\ jogo\ da\ velha.jpg);">
                         <div class="overlay">
-                            Jogo da velha
+                            <a href="https://vitordsb.github.io/Jogo-da-Velha/" target="_blank">Jogo da velha</a>
+                        </div>
+                    </div>
+
+                    <div class="img-port" style="background-image: url(./img/imagens-projeto/Chatbot\ imagem.png);">
+                        <div class="overlay">
+                            <a href="" target="_blank">Em breve...</a>
                         </div>
                     </div>
                 </div><!--final flex-->
             </div><!--final interface-->
         </section><!--final projetos-->
 
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo">ENTRE EM <span>CONTATO</span></h2>
+                <form action="">
+                    <input type="text" id="nome" placeholder="Seu nome:">
+                    <input type="email" id="email" placeholder="Seu email:">
+                    <input type="tel" id="telefone" placeholder="Seu telefone:">
+                    <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+                    <div class="btn-enviar"><input type="submit" value="enviar"></div>
+                </form>
+            </div>
+        </section>
 
     </main><!--Final tag main-->
 </body>
